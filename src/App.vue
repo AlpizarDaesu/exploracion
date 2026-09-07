@@ -10,6 +10,7 @@ import nomansIcon from './assets/nomans_icon.png'
 import helldiversIcon from './assets/Helldivers_icon.jpg'
 import helldiversTitle from './assets/helldiverstitulo (2).png'
 import nomansTitle from './assets/nomanstitulo.png'
+import MiniJuego from './components/MiniJuego.vue'
 
 const activeItem = ref('Inicio')
 const activeVideo = ref(0)
@@ -416,7 +417,7 @@ function updateActiveHelldiversVideo() {
 
       <section id="jugar" class="page-section info-section rpg-section">
         <p class="eyebrow">Guia</p>
-        
+        <MiniJuego />
 
       </section>
 
